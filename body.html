@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+
+      // startOfMonth(new Date());
+      /*       let day = new Date();
+      //   day.setDate(1);
+      console.log(day.getDate()); //设置一个 Date 对象在所属月份中的天数 */
+      // 创建一个当前日期的 Date 对象
+      var currentDate = new Date("2024");
+
+      // 将日期设置为本月的第一天
+      currentDate.setDate(1);
+
+      // 获取本月的第一天
+      var firstDayOfMonth = currentDate.getDate();
+
+      console.log(firstDayOfMonth); // 输出本月的第一天
+    </script>
+  </body>
+</html>
